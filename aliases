@@ -17,3 +17,6 @@ alias path='echo $PATH | tr -s ":" "\n"'
 
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
+
+# Alias to open Macvim
+alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'

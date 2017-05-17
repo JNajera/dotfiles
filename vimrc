@@ -123,6 +123,9 @@ nnoremap <silent> <leader>gt :TestVisit<CR>
 " Run commands that require an interactive shell
 nnoremap <Leader>r :RunInInteractiveShell<space>
 
+" Add support to Toogle NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
 " Treat <li> and <p> tags like the block tags they are
 let g:html_indent_tags = 'li\|p'
 
